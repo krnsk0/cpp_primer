@@ -5,7 +5,7 @@ int main(int argc, char **argv)
 
   std::string str = "Hello World";
 
-  for (auto &c : str)
+  for (char &c : str)
   {
     c = 'x';
   }
